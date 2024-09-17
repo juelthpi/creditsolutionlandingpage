@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
   $('.offer-carousel').slick({
     slidesToShow:1,
     arrows: true,
-    autoplay: false,
+    autoplay: true,
     infinite: true,
     prevArrow: $('.slick-prev'),
       nextArrow: $('.slick-next')

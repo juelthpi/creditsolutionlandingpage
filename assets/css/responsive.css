@@ -115,8 +115,8 @@
 }
 @media screen and (max-width: 991px) {
   .banner-section h1,.section-heading h2,.withdraw-system h2,.cta-content h2,.commission-list h2 {
-    font-size:28px;
-    line-height:45px;
+    font-size:35px;
+    line-height:40px;
   }
   .testimonial-content h2 {
     font-size: 28px;
@@ -194,7 +194,7 @@
   }
   .header-right {
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom:50px;
   }
   .footer-box {
     margin-bottom: 50px !important;
@@ -291,9 +291,24 @@
   .offer-img-show{
     gap:15px;
   }
+  .primary-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .button-wrapper i,
+  .modal-footer i,
+  .modal-footer span,
+  .button-item-modal i {
+    width: 44px;
+    height: 44px;
+  }
 
 }
 @media screen and (max-width: 767px) {
+  .banner-section h1,.section-heading h2,.withdraw-system h2,.cta-content h2,.commission-list h2 {
+    font-size:28px;
+    line-height:35px;
+  }
   .slider-btn {
     height: 38px;
     width: 38px;
@@ -312,17 +327,7 @@
     padding: 6px 15px;
     border-radius: 10px;
 }
-  .primary-btn {
-    font-size: 15px;
-    padding: 10px 20px;
-  }
-  .button-wrapper i,
-  .modal-footer i,
-  .modal-footer span,
-  .button-item-modal i {
-    width: 44px;
-    height: 44px;
-  }
+ 
   .transaction-history-right ul {
     gap: 8px;
   }
