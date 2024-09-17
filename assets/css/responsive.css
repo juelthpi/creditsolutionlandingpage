@@ -1,0 +1,433 @@
+@media (max-width: 2000px) {
+  footer:after {
+    width: 40%;
+  }
+}
+@media screen and (min-width:992px) {
+  .navbar-expand-lg .navbar-nav {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .prev-button{
+    left: 0;
+  }
+  .next-button{right:0 ;}
+  .commission-list ul li {
+    font-size: 16px;
+  }
+  .commission-details-cont h4 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .banner-section h1,.section-heading h2,.withdraw-system h2,.cta-content h2,.commission-list h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .footer-box.footer-menu ul li a,.contact-info-footer a {
+    font-size: 16px;
+  }
+  .banner-left p {
+    font-size: 18px;
+  }
+  section.cta-section img.shape-one {
+    left: 3%;
+  }
+  .section-heading h2 span {
+    font-size: 40px !important;
+    display: block;
+    line-height: 50px;
+  }
+  section.cta-section img.shape-two {
+    right: 3%;
+  }
+  .blog-post-footer ul {
+    gap: 10px;
+  }
+  .referal.box .form-group .input-group {
+    justify-content: center;
+  }
+  .referal.box .form-group {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .referal.box .form-group label {
+    margin-bottom: 15px;
+  }
+  .banner-left,
+  .banner-right {
+    background-size: 150% 100%;
+  }
+  .banner-right {
+    background-position: 72% 0;
+  }
+
+  .Commission-details .box-row-design {
+    row-gap: 20px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .commission-list ul li{
+    width: 100%;
+  }
+  .form-right-content {
+    margin-top: 30px;
+  }
+  footer:after {
+    display: none;
+  }
+  .footer-box P:last-child {
+    margin-bottom: 30px;
+  }
+  .testimonial-sliders {
+    margin-top: 30px;
+  }
+  .testimonial-content {
+    text-align: center;
+  }
+
+  .testimonial-content p {
+    margin: 0;
+  }
+
+  .testimonial-content .slider-arrows {
+    text-align: center;
+    justify-content: center;
+    margin-top: 17px;
+  }
+  section.cta-section img.shape-one {
+    display: none;
+  }
+
+  section.cta-section img.shape-two {
+    display: none;
+  }
+  .footer-box p {
+    margin-bottom: 20px;
+  }
+  .footer-box ul {
+    margin-bottom: 30px;
+  }
+  .contact-info {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner-section h1,.section-heading h2,.withdraw-system h2,.cta-content h2,.commission-list h2 {
+    font-size:30px;
+    line-height:45px;
+  }
+  .section-heading h2 span {
+    font-size: 30px !important;
+  }
+  .commission-list{
+    padding: 25px;
+  }
+  section.testimonial-section {
+    padding: 80px 0;
+  }
+  .commission-list img {
+    top: -50px;
+    width: 100px;
+  }
+  .withdraw-system .button-wrapper,
+  .withdraw-system{
+    justify-content: center;
+    text-align: center;
+  }
+  .mt160 {
+    margin-top: 90px;
+  }
+  section.banner-section {
+    padding-top: 60px;
+  }
+  ul.navbar-nav li {
+    margin-bottom: 5px;
+  }
+
+  ul.navbar-nav {
+    margin: 15px 0;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+
+  a.navbar-brand img {
+    max-width: 100px;
+  }
+  section.banner-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .achievement-thumbnail img {
+    max-width: 270px;
+  }
+
+  .achievement-thumbnail {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .achievement-content-inner {
+    padding-top: 0;
+  }
+  section.about-section.section-padding {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .footer-bottom-info a {
+    font-size: 30px;
+  }
+  .header-right {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer-box {
+    margin-bottom: 50px !important;
+  }
+
+  .copy-left {
+    text-align: center;
+  }
+
+  .copy-right p {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  footer {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .footer-box.footer-menu {
+    text-align: center;
+  }
+
+  .footer-box.footer-about {
+    padding-right: 0;
+    text-align: center;
+  }
+  .navbar-nav .dropdown-menu {
+    width: 100%;
+  }
+
+  .mega-menu ul {
+    margin-bottom: 7px;
+  }
+  .blog-details-heading h4 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .blog-post-details-cont h5 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+  .blog-post-details-cont p {
+    font-size: 15px;
+  }
+  
+  .user-item-box-area {
+    gap: 0;
+    margin-top: 105px;
+  }
+  .user-item-box.text-center {
+    margin: 8px;
+    border-radius: 40px;
+  }
+  .team-info p {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .label h1,
+  .label h1 span {
+    font-size: 35px;
+  }
+  .banner-left,
+  .banner-right {
+    height: auto;
+  }
+  .banner-left,
+  .banner-right {
+    background-size: cover;
+  }
+  
+  .commission-group-thum {
+    flex-basis: 100%;
+    order: -2;
+    text-align: center !important;
+  }
+  .mt40 {
+    margin-top: 20px;
+  }
+  .navbar-toggler{
+    padding:3px 5px;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  .slider-btn {
+    height: 38px;
+    width: 38px;
+  }
+  .slider-btn i {
+    font-size: 15px;
+  }
+  .offer-img-show {
+    flex-wrap: wrap;
+  }
+  .top-offer-item{
+    width: 100%;
+  }
+  .commission-details-item {
+    margin-top: 40px;
+  }
+   p {
+    font-size: 15px !important;
+  }
+  .commission-list ul li {
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+  .primary-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .button-wrapper i,
+  .modal-footer i,
+  .modal-footer span,
+  .button-item-modal i {
+    width: 44px;
+    height: 44px;
+  }
+  .transaction-history-right ul {
+    gap: 8px;
+  }
+  .banner-section h1 {
+    font-size:30px;
+  }
+  .brands {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brands img {
+    max-width: 145px;
+  }
+  section.work-process-section {
+    padding: 50px 0;
+  }
+
+  section.achievement-section {
+    padding: 50px 0;
+  }
+
+  section.work-process-section h2 {
+    font-size: 30px;
+  }
+
+  .service-slider-group-inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-bottom-info a {
+    font-size: 16px;
+  }
+  .cta-content h2 {
+    font-size: 30px;
+  }
+
+  section.cta-section {
+    padding: 50px 0;
+  }
+  .footer-menu {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  .contact-info {
+    gap: 0;
+    justify-content: space-around;
+  }
+  .form-group label {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .banner-left,
+  .banner-right {
+    background-size: 200% 100%;
+  }
+  .banner-right {
+    background-position: 80% 0;
+  }
+  .transaction-history-menu {
+    flex-wrap: wrap;
+  }
+  .transaction-history-left {
+    margin-bottom: 10px;
+  }
+  .heading-2,
+  .heading-2 .playfair-display {
+    font-size: 32px;
+  }
+  .gy-55 {
+    --bs-gutter-y: 22px;
+  }
+  .modal-content {
+    padding: 10px 0px;
+  }
+  .Commission-details .transaction-history-menu {
+    padding-top: 20px;
+  }
+  .commision-form {
+    padding: 40px 15px;
+  }
+  .commission-form-area .label {
+    margin-top: 55px;
+  }
+  .commision-form .form-group label {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .banner-left h1 {
+    line-height: 40px;
+  }
+  .banner-left p {
+    font-size: 16px;
+  }
+  .commission-group {
+    padding: 48px 15px;
+  }
+  .commission-group-content h4 {
+    font-size: 28px;
+    line-height: 35.5px;
+    margin-bottom: 12px;
+  }
+  .banner-left,
+  .banner-right {
+    padding: 20px;
+  }
+  .achievement-content h2,
+  .about-content h2,
+  .form-right-content h2,
+  section.latest-update h2 {
+    font-size: 30px;
+  }
+  .achievement-content p {
+    font-size: 16px;
+  }
+  .section-padding {
+    padding: 80px 0;
+  }
+  .testimonial-meta {
+    flex-wrap: wrap;
+  }
+  .testimonial-meta-info {
+    margin-left: 10px;
+  }
+  .footer-box.footer-menu ul li a,
+  .cta-content p {
+    font-size: 16px;
+  }
+}
