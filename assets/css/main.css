@@ -340,7 +340,11 @@ img {
 }
 .top-offer-item-inner {
 	background: #FFFFFF1C;
+  border-radius: 20px;
+}
+.top-offer-item-inner img {
 	border-radius: 20px;
+	width: 100%;
 }
 .top-offer-item {
 	border-radius: 25px;
