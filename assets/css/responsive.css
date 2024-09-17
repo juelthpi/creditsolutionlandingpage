@@ -115,8 +115,12 @@
 }
 @media screen and (max-width: 991px) {
   .banner-section h1,.section-heading h2,.withdraw-system h2,.cta-content h2,.commission-list h2 {
-    font-size:30px;
+    font-size:28px;
     line-height:45px;
+  }
+  .testimonial-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
   }
   .section-heading h2 span {
     font-size: 30px !important;
@@ -159,8 +163,15 @@
     max-width: 100px;
   }
   section.banner-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 170px;
+ 
+  }
+  .exclusive-offer-banner.ptb100{
+    padding: 50px 0;
+  }
+  section.banner-section::after {
+   
+    background: linear-gradient(360deg, #310557 1%, rgba(54, 6, 92, 0) 26.3%);
   }
   .achievement-thumbnail img {
     max-width: 270px;
@@ -265,6 +276,21 @@
   .navbar-toggler{
     padding:3px 5px;
   }
+  .commission-details-item img {
+    width: 100px;
+  }
+  .commission-details-item {
+    margin-top: 50px;
+  }
+  section.testimonial-section {
+    padding-top: 0;
+  }
+  .popular-offer-area {
+    padding-bottom: 120px;
+  }
+  .offer-img-show{
+    gap:15px;
+  }
 
 }
 @media screen and (max-width: 767px) {
@@ -275,17 +301,12 @@
   .slider-btn i {
     font-size: 15px;
   }
-  .offer-img-show {
-    flex-wrap: wrap;
-  }
-  .top-offer-item{
-    width: 100%;
-  }
   .commission-details-item {
     margin-top: 40px;
   }
    p {
     font-size: 15px !important;
+    line-height: 30px !important;
   }
   .commission-list ul li {
     padding: 6px 15px;
@@ -429,5 +450,23 @@
   .footer-box.footer-menu ul li a,
   .cta-content p {
     font-size: 16px;
+  }
+  .slick-next {
+    right: -5px;
+  }
+  .slick-prev {
+    left: -5px;
+  }
+  .commission-list img {
+    top: -78px;
+  }
+  .popular-offer-area {
+    padding-top: 0px;
+  }
+  .mt140 {
+    margin-top: 100px;
+  }
+  .exclusive-offer-banner.ptb100 {
+    padding-top: 0;
   }
 }

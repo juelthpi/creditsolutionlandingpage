@@ -10,8 +10,6 @@ jQuery(document).ready(function ($) {
     
      
     });
-  
-  
 
   // menu bg add
     $(window).on('scroll', function() {
@@ -20,11 +18,6 @@ jQuery(document).ready(function ($) {
       } else {
           $('header').removeClass('menu-bg');
       }
-  });
-  
-  $('.service-slide-item').on('mouseenter', function () {
-    $('.service-slide-item').removeClass('active')
-    $(this).addClass('active')
   });
   $('.testimonial-sliders').slick({
     slidesToShow: 2,
