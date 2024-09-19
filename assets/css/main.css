@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
 }
 section.banner-section {
   padding-top: 180px;
-  padding-bottom: 180px;
+  padding-bottom: 120px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -70,7 +70,20 @@ section.banner-section:after{
   bottom: 0;
   position: absolute;
   left: 0;
-  background: linear-gradient(360deg, #330E55 1%, rgba(54, 6, 92, 0) 26.3%);
+  /* background: linear-gradient(360deg, #330E55 1%, rgba(54, 6, 92, 0) 26.3%); */
+  background: linear-gradient(360deg, #2F0A51 0%, rgba(54, 6, 92, 0) 26.3%);
+}
+section.banner-section:before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  top:100%;
+  position: absolute;
+  left: 0;
+  background: linear-gradient(180deg, #2F0A51 0%, rgba(54, 6, 92, 0) 26.3%);
+
+  /* background: linear-gradient(180deg, #330E55 1%, rgba(54, 6, 92, 0) 26.3%); */
+
 }
 .banner-left h1,.section-heading h2 {
   font-size:64px;
@@ -104,6 +117,7 @@ section.banner-section:after{
 	font-size: 24px;
 	color: #fff;
 	margin-bottom: 48px;
+  font-weight: 500;
 	line-height: 45px;
 }
 .withdraw-system h2 {
@@ -936,6 +950,7 @@ section.copyright-section {
   padding: 9px 39px;
   border-radius: 60px;
   line-height: 36px;
+  font-weight: 500;
   color:#F7F7F7;
  }
  .section-heading {
@@ -986,7 +1001,7 @@ section.copyright-section {
   font-weight: 400;
   color:#FFFFFFCC;
   line-height: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 29px;
  }
  section.cta-section {
 	position: relative;

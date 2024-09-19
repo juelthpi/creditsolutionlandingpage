@@ -474,4 +474,7 @@
   .exclusive-offer-banner.ptb100 {
     padding-top: 0;
   }
+  .top-offer-item {
+    padding: 10px;
+  }
 }
