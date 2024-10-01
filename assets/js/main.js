@@ -1,12 +1,13 @@
 
 jQuery(document).ready(function ($) {
-  $('.offer-carousel').slick({
-    slidesToShow:1,
+  $('.ido-card-slider').slick({
+    slidesToShow:3,
+    slidesToScroll: 1,
     arrows: true,
     autoplay: true,
     infinite: true,
-    prevArrow: $('.slick-prev'),
-      nextArrow: $('.slick-next')
+    prevArrow: $('.ido-slick-prev'),
+      nextArrow: $('.ido-slick-next'),
     
      
     });
